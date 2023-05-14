@@ -35,8 +35,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 player.setImageResource(R.drawable.batu_bawah);
               String message = gamestart( "batu");
-                Toast.makeText(MainActivity.this,"Kamu Memilih Batu"+message,Toast.LENGTH_SHORT).show();
-                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+Integer.toString(scoreKomputer));
+                Toast.makeText(MainActivity.this,"Kamu Memilih Batu"+message,Toast.
+                        LENGTH_SHORT).show();
+                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+
+                        Integer.toString(scoreKomputer));
             }
         });
         btngunting.setOnClickListener(new View.OnClickListener() {
@@ -44,8 +46,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 player.setImageResource(R.drawable.gunting_bawah);
                 String message = gamestart( "gunting");
-                Toast.makeText(MainActivity.this,"Kamu Memilih Gunting"+message,Toast.LENGTH_SHORT).show();
-                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+Integer.toString(scoreKomputer));
+                Toast.makeText(MainActivity.this,"Kamu Memilih Gunting"+message,Toast.
+                        LENGTH_SHORT).show();
+                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+
+                        Integer.toString(scoreKomputer));
             }
         });
         btnkertas.setOnClickListener(new View.OnClickListener() {
@@ -53,8 +57,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 player.setImageResource(R.drawable.kertas_bawah);
                String message = gamestart("kertas");
-                Toast.makeText(MainActivity.this,"Kamu Memilih Kertas"+message,Toast.LENGTH_SHORT).show();
-                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+Integer.toString(scoreKomputer));
+                Toast.makeText(MainActivity.this,"Kamu Memilih Kertas"+message,Toast.
+                        LENGTH_SHORT).show();
+                txscore.setText("Score Player:"+Integer.toString(scorePlayer)+"Score Komputer"+
+                        Integer.toString(scoreKomputer));
             }
         });
     }
