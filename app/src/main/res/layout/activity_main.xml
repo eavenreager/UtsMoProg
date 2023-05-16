@@ -56,41 +56,32 @@
         android:id="@+id/btnbatu"
         android:layout_width="150dp"
         android:layout_height="160dp"
-        android:contentDescription="batu"
         android:layout_below="@+id/txscore"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="102dp"
-        android:background="@drawable/batu_bawah" />
+        android:layout_marginTop="40dp"
+        android:background="@drawable/batu_bawah"
+        android:contentDescription="batu" />
 
     <ImageButton
         android:id="@+id/btngunting"
-        android:contentDescription="gunting"
         android:layout_width="100dp"
         android:layout_height="130dp"
         android:layout_below="@+id/txscore"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="115dp"
+        android:layout_marginTop="40dp"
         android:layout_toEndOf="@+id/btnbatu"
-        android:background="@drawable/gunting_bawah" />
+        android:background="@drawable/gunting_bawah"
+        android:contentDescription="gunting" />
 
     <ImageButton
         android:id="@+id/btnkertas"
-        android:contentDescription="kertas"
-        android:layout_width="100dp"
-        android:layout_height="130dp"
+        android:layout_width="127dp"
+        android:layout_height="139dp"
         android:layout_below="@+id/txscore"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="43dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="115dp"
         android:layout_toEndOf="@+id/btngunting"
         android:background="@drawable/kertas_bawah"
-        />
+        android:contentDescription="kertas" />
 
 
 </RelativeLayout>
